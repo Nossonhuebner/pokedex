@@ -1327,3 +1327,78 @@ Processing by Api::PokemonController#index as JSON
 Completed 200 OK in 575ms (Views: 530.7ms | ActiveRecord: 2.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-07-04 16:05:26 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (4.3ms)
+Completed 200 OK in 1391ms (Views: 1351.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-04 16:06:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.7ms)
+Completed 200 OK in 958ms (Views: 935.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2018-07-04 16:06:52 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (2.0ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendered api/pokemon/index.json.jbuilder (495.7ms)
+Completed 200 OK in 546ms (Views: 503.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-04 16:07:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2018-07-04 16:08:11 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendered api/pokemon/index.json.jbuilder (298.2ms)
+Completed 200 OK in 359ms (Views: 306.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-04 16:08:29 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.8ms)
+Completed 200 OK in 890ms (Views: 876.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2018-07-04 16:08:34 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.6ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendered api/pokemon/index.json.jbuilder (346.2ms)
+Completed 200 OK in 412ms (Views: 354.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2018-07-04 16:08:42 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.6ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendered api/pokemon/index.json.jbuilder (339.1ms)
+Completed 200 OK in 350ms (Views: 345.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-07-04 16:09:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html within layouts/application
+  Rendered static_pages/root.html within layouts/application (0.6ms)
+Completed 200 OK in 495ms (Views: 491.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2018-07-04 16:09:16 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendered api/pokemon/index.json.jbuilder (488.4ms)
+Completed 200 OK in 508ms (Views: 497.0ms | ActiveRecord: 1.2ms)
+
+

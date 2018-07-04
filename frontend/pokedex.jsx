@@ -21,3 +21,6 @@ import { RECEIVE_ALL_POKEMON, receiveAllPokemon, requestAllPokemon} from './acti
 window.fetchAllPokemon = fetchAllPokemon;
 window.receiveAllPokemon = receiveAllPokemon;
 window.requestAllPokemon = requestAllPokemon;
+
+import { selectAllPokemon } from './reducers/selectors';
+window.selectAllPokemon = selectAllPokemon;

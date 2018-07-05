@@ -5,8 +5,11 @@ import PokemonIndex from './pokemon_index';
 
 const mapStateToProps = (state) => {
   const pokemon = selectAllPokemon(state);
+  const items = state.entities.items;
+  debugger
   return {
-    pokemon
+    pokemon,
+    items
   };
 };
 

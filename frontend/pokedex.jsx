@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import configureStore from './store.js';
 import Root from './components/root';
+import { HashRouter, Route } from 'react-router-dom';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // // TODO: DELETE FOR PRODUCTION
-  // window.getState = store.getState;
-  // window.dispatch = store.dispatch;
+  window.getState = store.getState;
+  window.dispatch = store.dispatch;
 });
